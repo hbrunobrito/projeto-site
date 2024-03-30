@@ -2,16 +2,89 @@
     font-family: Arial, Helvetica, sans-serif;
     font-size: 16px;
 }
-
+/* Estilos gerais */
 body {
-    background-color: rgb(185, 134, 233);
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  /* Estilos dos blocos */
+  
+  .block {
+    background-color: #f9f9f9;
+    border-radius: 10px;
+    padding: 20px;
+    margin-bottom: 20px;
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
+  }
+  
+  .block h2 {
+    margin-top: 0;
+  }
+  
+  .block p {
+    margin-bottom: 0;
+  }
+  
+  /* Estilos dos botões */
+  
+  .button {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #4CAF50;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+  }
+  
+  .button:hover {
+    background-color: #45a049;
+  }
+  
+  /* Estilos do cabeçalho */
+  
+  .header {
+    background-color: #333;
+    color: white;
+    padding: 20px 0;
+    text-align: center;
+  }
+  
+  .header h1 {
+    margin: 0;
+  }
+  
+  /* Estilos do rodapé */
+  
+  .footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+  }
+  
+  /* Estilos responsivos */
+  
+  @media (max-width: 768px) {
+    .container {
+      padding: 10px;
+    }
+  }
 
-}
-
-main {
+  main {
     background-color: white;
     width: 500px;
     margin: auto;
     padding: 10px;
     box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.623);
 }
+  
