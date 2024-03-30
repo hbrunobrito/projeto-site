@@ -37,8 +37,8 @@ body {
 }
 
 .block img {
-  max-width: min-content;
-  max-height: min-content;
+  max-width: 256px;
+  max-height: 256px;
   border-radius: 10px;
 }
 
